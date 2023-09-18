@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Segoe UI;
+    src: url(Police/Segoe\ UI.ttf);
+}
+
+* {
+    background-color: #161616;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR */
+.primary-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 22% 3% 5%;
+}
+
+.header-left {
+}
+
+.header-left img{
+    width: 60%;
+}
+
+.li-button {
+    display: flex;
+}
+
+.li-button li{
+    list-style: none;
+    padding-left: 30%;
+}
+
+.li-button li a{
+    text-decoration: none;
+}
+/* NAVBAR */
+
+.main-block {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.block-firstname-lastname p{
+    padding-top: 7%;
+    font-weight: bold;
+}
+
+.block-firstname-lastname a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button-cv-download { 
+    background-color: #17B9ED;
+    padding: 1% 1% 1% 1%;
+    margin-top: 7%;
+}  
+
+.main-block-project {
+    width: 100%;
+}
+
+.title-project {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.main-block-project {
+}
+
+.block-project1 {
+    margin-top: 5%;
+}
+
+.block-project2 {
+    margin-top: 5%;
+}
+
+.block-project3 {
+    margin-top: 5%;
+}
+
+.block-project4{
+    margin-top: 5%;
+}
+
+.project1-redgo{
+    padding-top: 10%;
+}
+
+.project2-redgo{
+    padding-top: 10%;
+}
+
+.project3-redgo{
+    padding-top: 10%;
+}
+
+.project4-redgo{
+    padding-top: 10%;
+}
+
+.block-img-project1-redgo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-img-project2-redgo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-img-project3-redgo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-img-project4-redgo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-myexperience {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.myexperience {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.button-download {
+    padding-top: 10%;
+}
